@@ -1,0 +1,41 @@
+.profile{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: end;
+    margin: 2em 0 2em 0;
+    font-weight: bold;
+    
+}
+
+.round-img img{
+    height:50px;
+    margin-left: 10px;
+    
+}
+
+
+.mb-lg-0{
+    margin-left: 2em;
+}
+
+.bg-light{
+    border-bottom: solid;
+    border-width: 1px;
+    padding: 1em;
+    border-color: rgba(0, 0, 0, 0.222);
+    background-color: transparent;
+}
+
+.active{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: grey;
+    font-size: large;
+    margin: 0 1em 0 1em;
+}
+
+.nav-link.active:hover{
+    color: red;
+    border-bottom: solid;
+}

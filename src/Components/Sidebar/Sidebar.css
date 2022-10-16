@@ -1,0 +1,81 @@
+.main-box{
+    width: 20%;
+    background-image: linear-gradient(#8F5DFA, #4A1975);
+    height: max;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: unset;
+}
+
+ul {
+    list-style: none;
+}
+
+.s-logo{
+    display: flex;
+    margin: 3em 0 3em 0;
+    font-weight: bold;
+    align-items: center;
+}
+
+.s-menu{
+    margin: 0em 0 2em 0;
+}
+
+.logo-box{
+    height: 35px;
+    width: 35px;
+    background-color: bisque;
+    border-radius: 4px;
+    margin-right: 1em;
+}
+
+img{
+    height: 20px;
+    margin-right: 1em;
+    fill: white;
+}
+
+li{
+    margin: 2em 0 0 0em;
+}
+ ul{
+    margin-left: 0px;
+ }
+
+.btn-primary{
+    display: flex;
+    --bs-btn-bg: transparent;
+    padding: 1em;
+    align-items: flex-start;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-image:linear-gradient(to right, #fff 100%, rgb(237, 9, 9));
+    color: red;
+    
+}
+
+.s-support{
+    margin: 2em 0 0 0;
+}
+
+.s-tickets{
+    display: flex;
+    margin: 2em 0 0 0;
+}
+
+.alert-dot{
+    margin-left: 10px ;
+    display: flex;
+    background-color: green;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+.app{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0;
+    background-color: #F2F5FE;
+}

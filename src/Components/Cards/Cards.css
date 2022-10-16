@@ -1,0 +1,30 @@
+.oyo-logo img{
+    height: 50px;
+    width: 55px;
+    margin: 30px 10px 30px 30px;
+}
+
+.oyo-logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    font-weight: bolder;
+}
+
+.card-head{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.btn-outline-primary{
+    height: 40px;
+    margin-left: 50px;
+}
+
+.card{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
